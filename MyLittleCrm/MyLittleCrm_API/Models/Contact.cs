@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyLittleCramApi.Models
+namespace MyLittleCrmApi.Models
 {
     public class Contact
     {

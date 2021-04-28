@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MyLittleCramApi.Models
+namespace MyLittleCrmApi.Models
 {
     public class Quote
     {

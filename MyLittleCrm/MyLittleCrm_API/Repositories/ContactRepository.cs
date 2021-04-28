@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyLittleCramApi.Models;
+using MyLittleCrmApi.Models;
 using MyLittleCrm_API.Contracts;
 using MyLittleCrm_API.Data;
 using System;

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyLittleCramApi.Models;
+using MyLittleCrmApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

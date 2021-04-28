@@ -1,4 +1,4 @@
-﻿namespace MyLittleCramApi.Models
+﻿namespace MyLittleCrmApi.Models
 {
     public class QuoteLine
     {
