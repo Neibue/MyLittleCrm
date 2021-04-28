@@ -2,7 +2,6 @@
 {
     public class QuoteLine
     {
-        public int QuoteLineID { get; set; }
         public int Quantity { get; set; }
 
         public int ProductID { get; set; }

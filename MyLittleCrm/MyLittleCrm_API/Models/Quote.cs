@@ -10,7 +10,6 @@ namespace MyLittleCramApi.Models
         public int ContactID { get; set; }
         public string Reference { get; set; }
         public DateTime DateCreated { get; set; }
-        public User Commercial { get; set; }
         public string Type { get; set; }
         public Contact Contact { get; set; }
 
