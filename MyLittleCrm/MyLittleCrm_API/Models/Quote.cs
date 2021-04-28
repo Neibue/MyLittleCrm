@@ -15,6 +15,6 @@ namespace MyLittleCramApi.Models
         public Contact Contact { get; set; }
 
         public ICollection<Product> Products { get; set; }
-        public List<QuoteLine> QuotesLines { get; set; }
+        public List<QuoteLine> QuoteLines { get; set; }
     }
 }

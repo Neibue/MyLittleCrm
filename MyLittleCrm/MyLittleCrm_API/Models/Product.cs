@@ -11,6 +11,6 @@ namespace MyLittleCramApi.Models
         public double Price { get; set; }
 
         public ICollection<Quote> Quotes { get; set; }
-        public List<QuoteLine> QuotesLines { get; set; }
+        public List<QuoteLine> QuoteLines { get; set; }
     }
 }
