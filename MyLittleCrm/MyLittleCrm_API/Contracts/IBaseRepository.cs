@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MyLittleCrm_API.Contracts
 {
-    interface IBaseRepositroy<T> where T : class
+    interface IBaseRepository<T> where T : class
     {
         Task<IList<T>> FindAll();
         Task<T> FindById(int id);
