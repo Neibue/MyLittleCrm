@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MyLittleCrm_API.Data;
+using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System;
 using System.IO;
 using System.Reflection;
@@ -30,7 +31,8 @@ namespace MyLittleCrm_API
 
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddControllers();
+            services.AddControllers()
+                .AddNewtonsoftJson();
 
             services.AddSwaggerGen(c =>
             {
