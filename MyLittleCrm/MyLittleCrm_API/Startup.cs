@@ -24,6 +24,9 @@ namespace MyLittleCrm_API
         {
             services.AddDbContext<MyLittleCrmContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
+
+            services.AddDatabaseDeveloperPageExceptionFilter();
+
             services.AddControllers();
         }
 
